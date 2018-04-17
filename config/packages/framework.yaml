@@ -33,4 +33,4 @@ framework:
         adapters:
             default: '%env(MESSENGER_DSN)%'
         routing:
-            'App\Message\SendNotification': messenger.default_sender
+            'App\Message\SendNotification': default
